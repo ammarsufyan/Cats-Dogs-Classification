@@ -1,2 +1,4 @@
 dogs-vs-cats/
-dogs-vs-cats.zip
+Model_CatsVSDogs_10Epoch/
+Model_CatsVSDogs_80Epoch/
+*.zip
