@@ -9,7 +9,7 @@ from tqdm import tqdm
 import os
 from keras.models import load_model
 
-model = load_model('model_catsVSdogs_10epoch.h5')
+model = load_model('./Model_CatsVSDogs_80Epoch/model_catsVSdogs_80epoch.h5')
 
 # initialise GUI
 top = tk.Tk()
