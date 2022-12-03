@@ -1,4 +1,4 @@
-# CatsDogsClassification
+# Cats and Dogs Classification
 
 <h2>Purpose</h2>
 The purpose of this project is to classify whether images contain either a dog or a cat.
