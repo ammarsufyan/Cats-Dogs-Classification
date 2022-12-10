@@ -14,7 +14,7 @@ model = load_model('./Model_CatsVSDogs_80Epoch/model_catsVSdogs_80epoch.h5')
 # initialise GUI
 top = tk.Tk()
 top.geometry('800x600')
-top.title('CatsVSDogs Classification')
+top.title('Cats VS Dogs Classification')
 top.configure(background='#CDCDCD')
 label = Label(top, background='#CDCDCD', font=('arial', 15, 'bold'))
 sign_image = Label(top)
@@ -32,9 +32,9 @@ def classify(file_path):
     classes = model.predict(images, batch_size=10)
     print(classes)
     if classes[0] > 0.5:
-        result = "Dogs"
+        result = "This is a Dog"
     else:
-        result = "Cats"
+        result = "This is a Cat"
 
     label.configure(foreground='#011638', text=result)
 
@@ -72,7 +72,7 @@ upload.configure(background='#364156', foreground='white',
 upload.pack(side=BOTTOM, pady=50)
 sign_image.pack(side=BOTTOM, expand=True)
 label.pack(side=BOTTOM, expand=True)
-heading = Label(top, text="CatsVSDogs Classification",
+heading = Label(top, text="Cats VS Dogs Classification",
                 pady=20, font=('arial', 20, 'bold'))
 heading.configure(background='#CDCDCD', foreground='#364156')
 heading.pack()
