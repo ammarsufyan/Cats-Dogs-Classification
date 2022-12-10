@@ -11,6 +11,6 @@ The purpose of this project is to classify whether images contain either a dog o
 
 <h2>Demo</h2>
 
-![image](https://user-images.githubusercontent.com/63483228/205444526-32ac6f2b-7004-4f60-8dc6-9961a1f31fd5.png)
+![image](https://user-images.githubusercontent.com/63483228/206829841-0e379db3-a720-42c3-8c0c-ceffcb7a321f.png)
 
-![image](https://user-images.githubusercontent.com/63483228/205444545-d27e7b18-a537-41ac-b837-31eeddf0b54f.png)
+![image](https://user-images.githubusercontent.com/63483228/206829848-035a3cd3-ef47-4a7d-9e0d-383c6d673ab7.png)
